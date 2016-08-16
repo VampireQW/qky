@@ -281,7 +281,7 @@ header.headroom--unpinned {
 
 /* QRCODE */
 .qrcode {
-  background: #f2f2f2;
+  background: #fff;
   color: #191919;
   text-align: center;
 }
@@ -363,7 +363,7 @@ h2 {
 }
 /*footer*/
 .footer {
-	background:#EEE;
+	background:#fafafa;
 	display:table;
 	padding:120px 40px;
 	width:100%
