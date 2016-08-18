@@ -109,7 +109,7 @@ header.headroom--unpinned {
             }
             .navbar-inverse .navbar-nav>li>a:focus, 
             .navbar-inverse .navbar-nav>li>a:hover {
-              color: #f90;
+              color: #999;
             }
 
 @media (min-width: 768px) {
@@ -373,7 +373,7 @@ h2 {
 
 .footer .nav {
 	float:left;
-	margin:0px; color:#666; width:auto;
+	margin:0px; color:#000; width:auto;
 }
 .footer .nav ul {
 	list-style-type:none;

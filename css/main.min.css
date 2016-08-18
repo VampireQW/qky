@@ -144,7 +144,7 @@
 	transform:scale(1.03,1.03)!important
 }
 .no-touch .work-item:hover .content {
-	background-color:rgba(0,0,0,.65)
+	background-color:rgba(0,0,0,.48)
 }
 .no-touch .work-item:hover h1,.no-touch .work-item:hover h2 {
 	-webkit-transform:translate(0,0);
