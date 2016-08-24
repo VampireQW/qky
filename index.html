@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en" class="js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent">
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="renderer" content="webkit">
+    <meta name="baidu-site-verification" content="HuKZbEtsCC" />
+    <title>齐开洋 | Kyne</title>
+    <link rel="shortcut icon" href="img/index/titlelogo.jpg"/>
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/main.min.css" />
+    <link rel="stylesheet" href="css/gainseestyle.css" />
+    <script src="js/main.min.js"></script>
+    <!--[if lt IE 9]>
+    <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="js/webplate.min.js"></script>
+    <script src="js/script.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/headroom.min.js"></script>
+    <script src="js/script.js"></script>
+    <script async src="js/analytics.js"></script>
+	<style type="text/css">
+		.appshow{width: 100%;height: 60px;line-height: 30px;text-align: center;font-size:40px;}
+		video{ width: 100%;}
+		.wrap{margin-top: 40px;}
+		#myModal h4{
+			text-transform: capitalize;
+		}
+		#products{margin-top: 60px;}
+		.wrapfooter{max-width: 1300px;margin:0 auto;}
+	</style>
+</head>
+
+
+<body ryt12934="1">
+<script>
+    $(document).ready(function(){
+        $("button").click(function(){
+            $(".navbar-inverse").toggleClass("navbar-bg");
+        });
+        $(".news-item").click(function(){
+            window.location=$(this).find("a").attr("href");
+            return false;
+        });
+       var products = $('#products'),
+  myModal = document.querySelector('#myModal img'),
+  h4 = document.querySelector('#myModal h4');
+        products.click(function(e){
+        	var alt = e.target.getAttribute('alt');
+        	myModal.src = 'img/index/'+alt+'show.png';	
+        	h4.innerText = alt;
+        })
+
+
+    });
+</script>
+
+<nav class="absolute">
+    <div >
+        <nav class="navbar navbar-inverse navbar-static-top ">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand logoaa" href="index.html">
+                        Kyne
+                    </a>
+                </div>
+                <div id="navbar" class=" navbar-right navbar-collapse collapse daohang">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href='index.html'>首页</a></li>
+                        <li><a href='#show'  ><span>展示</span></a></li>
+                        <li><a href='#products' ><span>作品</span></a></li>
+                        <li><a href='#contect' ><span>联系</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div></nav>
+<header  class="stripe full">
+
+    <div class="contain">
+
+        <div  class="text-center-tight"><div class="inner">
+            <h2>I am Kyne A UI Designer</h2>
+            <h6>一个执着于美的强迫症</h6>
+
+
+
+        </div></div>
+
+        <a href="javascript:;" class="anchor scroll-down fadeInDown"></a>
+
+
+    </div>
+
+
+    <div class="bg-image" style="background-image:url(img/index/201.png)"></div>
+
+</header>
+<div id="show" class="stripe">
+<div class="row">
+            <div class="col-md-10 col-md-offset-1 wrap" data-show="on-scroll">
+                <h2>Demo</h2>
+                <p class="lead">Orbit（轨迹）这款app是面向于有些文艺，注重自己的生活，怀旧且善于纪录的人群的工具类产品。生活节奏加快，人们也应该慢下脚步，记录生活的美好。下面是一个video demo。</p>
+               <!--  <a href="#" class="btn-outline">查看详细介绍</a> -->
+            <video src="video/demo.mp4" poster="img/index/face.png" controls="controls">
+            </video>
+    </div>
+    </div> 
+
+    <div id="products" class="container-fluid">
+
+		<div class="appshow">Products</div>
+        <section class="work-list" >
+            <div class="inner" id="work-feed">
+
+                <article class="work-item " data-show="on-scroll" >
+                    <a data-toggle="modal" data-target="#myModal">
+                   
+                        <picture>
+                            <img src='img/index/Orbit.jpg' border='0' width='120' height='120' alt='Orbit'>
+                        </picture>
+                        <div class="content">
+                            <div>
+                                <div>
+                                    <h1>Orbit</h1>
+                                    <h2>一款记录生活美好的工具类产品</h2>
+                                </div>
+                            </div>
+                        </div>
+                        </a>
+                        
+                </article>
+
+            </div>
+        </section>
+        <section class="work-list" >
+            <div class="inner" id="work-feed">
+
+                <article class="work-item " data-show="on-scroll" >
+                    <a data-toggle="modal" data-target="#myModal">
+                        <picture>
+                            <img src='img/index/youto.jpg' border='0' width='120' height='120' alt='youto'>
+                        </picture>
+                        <div class="content">
+                            <div>
+                                <div>
+                                    <h1>优途Youto</h1>
+                                    <h2>一款旅游社交类产品</h2>
+                                </div>
+                            </div>
+                        </div></a>
+                </article>
+
+            </div>
+        </section>
+        <section class="work-list" >
+            <div class="inner" id="work-feed">
+
+                <article class="work-item " data-show="on-scroll" >
+                    <a data-toggle="modal" data-target="#myModal">
+                        <picture>
+                            <img src='img/index/coolbuy.jpg' border='0' width='120' height='120' alt='coolbuy'>
+                        </picture>
+                        <div class="content">
+                            <div>
+                                <div>
+                                    <h1>Coolbuy</h1>
+                                    <h2>一款外设专卖的电商产品</h2>
+                                </div>
+                            </div>
+                        </div></a>
+                </article>
+
+            </div>
+        </section>
+        <section class="work-list" >
+            <div class="inner" id="work-feed">
+
+                <article class="work-item " data-show="on-scroll" >
+                    <a data-toggle="modal" data-target="#myModal">
+                        <picture>
+                            <img src='img/index/moview.jpg' border='0' width='120' height='120' alt='moview'>
+                        </picture>
+                        <div class="content">
+                            <div>
+                                <div>
+                                    <h1>幕影 Moview</h1>
+                                    <h2>Moview app界面展示<br />为爱电影的你</h2>
+                                </div>
+                            </div>
+                        </div></a>
+                </article>
+
+            </div>
+        </section>
+                <section class="work-list" >
+            <div class="inner" id="work-feed">
+
+                <article class="work-item " data-show="on-scroll" >
+                    <a data-toggle="modal" data-target="#myModal">
+                        <picture>
+                            <img src='img/index/stage.jpg' border='0' width='120' height='120' alt='stage'>
+                        </picture>
+                        <div class="content">
+                            <div>
+                                <div>
+                                    <h1>管理平台</h1>
+                                    <h2>装备技术中心</h2>
+                                </div>
+                            </div>
+                        </div></a>
+                </article>
+
+            </div>
+        </section>
+        <section class="work-list" >
+            <div class="inner" id="work-feed">
+
+                <article class="work-item " data-show="on-scroll" >
+                    <a data-toggle="modal" data-target="#myModal">
+                        <picture>
+                            <img src='img/index/login.jpg' border='0' width='120' height='120' alt='login'>
+                        </picture>
+                        <div class="content">
+                            <div>
+                                <div>
+                                    <h1>分班系统</h1>
+                                    <h2>分班管理平台</h2>
+                                </div>
+                            </div>
+                        </div></a>
+                </article>
+
+            </div>
+        </section>
+        <section class="work-list" >
+            <div class="inner" id="work-feed">
+
+                <article class="work-item " data-show="on-scroll" >
+                    <a data-toggle="modal" data-target="#myModal">
+                        <picture>
+                            <img src='img/index/QQmail.jpg' border='0' width='120' height='120' alt='QQmail'>
+                        </picture>
+                        <div class="content">
+                            <div>
+                                <div>
+                                    <h1>练习作品</h1>
+                                    <h2>QQmail</h2>
+                                </div>
+                            </div>
+                        </div></a>
+                </article>
+
+            </div>
+        </section>
+        <section class="work-list" >
+            <div class="inner" id="work-feed">
+
+                <article class="work-item " data-show="on-scroll" >
+                    <a data-toggle="modal" data-target="#myModal">
+                        <picture>
+                            <img src='img/index/instagram.jpg' border='0' width='120' height='120' alt='instagram'>
+                        </picture>
+                        <div class="content">
+                            <div>
+                                <div>
+                                    <h1>练习作品</h1>
+                                    <h2>instagram</h2>
+                                </div>
+                            </div>
+                        </div></a>
+                </article>
+
+            </div>
+        </section>
+
+    </div>
+<a class="full-btn btn-outline" id="show-more" href="more.html" data-show="on-scroll">More</a>
+
+
+
+    <div id="contect" class="container-fluid">
+        <div class="row featurette qrcode">
+            <div class="col-lg-12" data-show="on-scroll">
+                <h2>好奇 × 责任 × 学习 </h2><br>
+                <h4>认真发现生活的美</h4><br>
+                
+               <!--  <h5><a href="resume.html" class="btn-outline">About me</a></h5> -->
+            </div>
+        </div>
+    </div>
+</div>
+<a class="full-btn btn-outline" id="show-more" href="resume.html" data-show="on-scroll">My resume</a>
+<footer class="footer">
+	<div class="wrapfooter">
+    <div class="nav">
+        <ul id="menu">
+            <li>齐开洋 Kyne</li>
+            <li>Address：北京市昌平区</li>
+            <li>Phone：15010793282</li>
+            <li>Mail: kyneqi@163.com  </li>
+            <li>Website：https://vampireqw.github.io/qky/</li>
+        </ul>
+    </div>
+    <div class="info">
+        <ul id="social-menu">
+
+
+            <li ><a href="#"  target="_blank" rel="external">K</a></li>
+            <li ><a href="#" target="_blank" rel="external">Y</a></li>
+            <li ><a href="#" target="_blank" rel="external">N</a></li>
+            <li ><a href="#"  rel="external">E</a></li>
+        </ul>
+        <p class="copyright">我的微信<br /><img width="100" height="100" src="img/index/qky.png" /> </p>
+    </div>
+</footer>
+
+ <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Moview</h4>
+      </div>
+      <div class="modal-body">
+        <img width="100%" src="img/index/moviewshow.png">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
